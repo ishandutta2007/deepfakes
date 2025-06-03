@@ -1,22 +1,13 @@
 [tool.poetry]
-name = "deepfakes-plus"
+name = "nextgen-media-platform"
 version = "0.1.0"
-description = "A project for deepfakes experimentation, including face swapping."
-authors = ["Your Name <you@example.com>"]
+description = "A platform for State-of-the-Art Diffusion Models and 3D-Aware Methodologies with an Electron UI."
+authors = ["AIAgent <agent@example.com>"]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10" # Reverted to ^3.10 to be compatible with numpy
-numpy = "^2.2.6" # Kept existing version
-pillow = "^11.2.1" # Kept existing version
-opencv-python = "^4.11.0.86" # Kept existing version
-typer = {extras = ["all"], version = "^0.15.4"} # Kept existing version, added 'all' extras for typer as it's common
-torch = "*"
-torchvision = "*"
-facenet-pytorch = "*"
-timm = "==0.5.4"
-mmcv-full = "*"
+python = "^3.10"
 
 [build-system]
 requires = ["poetry-core"]
